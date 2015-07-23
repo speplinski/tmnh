@@ -81,13 +81,13 @@ Link do całości artukułu znajduje się po nazwie autora w tagu *p class="user
 
 Program składa się z 3 elementów.
 
-1. Dzień wraz z datą
+* Dzień wraz z datą
 
 ````
 <div class="pday fhead">Czwartek, 23 lipiec</div>
 ````
 
-2. Godzina
+* Godzina
 
 ````
 <div class="phour fhead">18:30</div>
@@ -95,11 +95,11 @@ Program składa się z 3 elementów.
 
 Jeśli kilka wydarzeń staruje w tym samym czasie, to są one pokazywane w ramach jednego nagłówka.
 
-3. Wydarzenie
+* Wydarzenie
 
-Wydarzenie zawiera tytuł filmu wraz z datą premiery, tytuł oryginalny, jeśli dostępny oraz link do imdb.com z opisem filmu.
+Wydarzenie zawiera *tytuł filmu* wraz z *datą premiery*, *tytuł oryginalny*, jeśli dostępny oraz *link do imdb.com* z opisem filmu.
 Jeśli opis nie znajduje się w bazie imdb.com, wówczas tytuł nie jest linkowany.
-Poniżej znajduje się również informacja o miejscu wydarzenia, np. Kino NH 1, adresie oraz koordynatach geograficznych, pokazywanych na mapie google.
+Poniżej znajduje się również informacja o *miejscu wydarzenia*, np. Kino NH 1, *adresie* oraz *koordynatach geograficznych*, pokazywanych na mapie google.
 Uzupełniając program należy używać danych ze strony [nowehoryzonty.pl](http://www.nowehoryzonty.pl/kalendarz.do).
 
 ````
