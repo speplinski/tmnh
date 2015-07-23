@@ -76,3 +76,45 @@ Link do całości artukułu znajduje się po nazwie autora w tagu *p class="user
 	</p>
 </div>
 ````
+
+## Program ##
+
+Program składa się z 3 elementów.
+
+1. Dzień wraz z datą
+
+````
+<div class="pday fhead">Czwartek, 23 lipiec</div>
+````
+
+2. Godzina
+
+````
+<div class="phour fhead">18:30</div>
+````
+
+Jeśli kilka wydarzeń staruje w tym samym czasie, to są one pokazywane w ramach jednego nagłówka.
+
+3. Wydarzenie
+
+Wydarzenie zawiera tytuł filmu wraz z datą premiery, tytuł oryginalny, jeśli dostępny oraz link do imdb.com z opisem filmu.
+Jeśli opis nie znajduje się w bazie imdb.com, wówczas tytuł nie jest linkowany.
+Poniżej znajduje się również informacja o miejscu wydarzenia, np. Kino NH 1, adresie oraz koordynatach geograficznych, pokazywanych na mapie google.
+Uzupełniając program należy używać danych ze strony [nowehoryzonty.pl](http://www.nowehoryzonty.pl/kalendarz.do).
+
+````
+<div class="pevent fhead">
+	<a href="//www.imdb.com/title/tt3792960" target="_blank">
+		<div class="etitle"><strong>The Brand New Testament (2015)</strong></div>
+		<div class="eoryginal-title">"Le tout nouveau testament" <i>(original title)</i></div>
+	</a>
+	<a href="//www.google.pl/maps/@51.10944,17.02644,20z" target="_blank">
+		<div class="eplace">
+			<i class="fa fa-map-marker"></i>
+			<span>Kino HN 1</span>
+			<span class="hidden-xs">, ul. Kazimierza Wielkiego 19a-21</span>
+		</div>
+	</a>
+</div>
+````
+
