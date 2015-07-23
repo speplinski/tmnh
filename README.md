@@ -64,7 +64,7 @@ Jeśli w treści występuje hashtag (wyzaz z # na początku), powinien on dosta�
 ````
 
 Podobnie wszystkie adresy URL występujące w treści powinny kierować do właściwych stron.
-Link do całości artukułu znajduje się po nazwie autora w tagu *<p class="user fplain">* .
+Link do całości artukułu znajduje się po nazwie autora w tagu *p class="user fplain"* .
 
 ````
 <div class="pin">
