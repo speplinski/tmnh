@@ -1,0 +1,7 @@
+<script>
+var isMobile={Android:function(){return navigator.userAgent.match(/Android/i);},iOS:function(){return navigator.userAgent.match(/iPhone|iPad|iPod/i);},Windows:function(){return navigator.userAgent.match(/IEMobile/i);}};
+if(isMobile.iOS())window.location="https://goo.gl/VVl1DA";
+else if(isMobile.Android())window.location="https://goo.gl/P6Wr8K";
+else if(isMobile.Windows())window.location="https://goo.gl/8JZcbk";
+else window.location="aplikacja.html";
+</script>
