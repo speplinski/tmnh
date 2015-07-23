@@ -23,7 +23,7 @@ Ważne, aby wygenerowany kod miał rozmiar 216x216 px.
 
 Aktualności powinny być pobierane dynamicznie. W pliku [aktualnosci.html](aktualnosci.html) znajduje się struktura.
 Wiadomości poninny układać się naprzemiennie. Definiują to klasy *col-md-push-5* oraz *col-md-pull-7* .
-Dodatkowo w nagłówku *<h2>* jeśli pojawi się zwrot *T-Mobile Nowe Horyzonty* lub *T-Mobile* powinien dostać klasę *tmcolor*.
+Dodatkowo jeśli w nagłówku *h2* pojawi się zwrot *T-Mobile Nowe Horyzonty* lub *T-Mobile* powinien dostać klasę *tmcolor*.
 
 ````
 <div class="row featurette">
